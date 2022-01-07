@@ -1,0 +1,31 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+}
+
+#posts {
+  width: 15rem;
+}
+
+.modal-content {
+  position: absolute;
+  left: 30%;
+  transform: translate(-40%, 1%);
+}
+
+.image {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
